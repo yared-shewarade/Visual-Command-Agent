@@ -18,4 +18,4 @@ job = CommandJob(
 )
 
 returned_job = ml_client.jobs.create_or_update(job)
-print(f"✅ Submitted Azure ML job: {returned_job.name}")
+print(f"Submitted Azure ML job: {returned_job.name}")
