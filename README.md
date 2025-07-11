@@ -44,18 +44,22 @@ VisualCommandAgent/
 
 
 ├── training/
+
  │   ├── model.py
  │   ├── dataset.py
  │   ├── train.py
- │   └── config.yaml
-├── profiling/
+ │   └── config.yaml  
+
+├── profiling/ 
  │   ├── profiler.py
  │   └── analysis.md
-├── scripts/
+
+├── scripts/ 
  │   ├── setup_env.sh
  │   ├── monitor_gpu.sh
  │   └── azure_submit.py
-├── docs/
+
+├── docs/ 
  │   └── project_overview.md
 ├── README.md
 ├── .gitignore
