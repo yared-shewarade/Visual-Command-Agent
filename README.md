@@ -1,8 +1,12 @@
 # Project: Visual Command Agent
 
+### Project Overview
+
+THis project simulates a real-world AI infrastructure. It covers the full lifecycle of developing, profiling, and deploying a vision-language model using PyTorch and Azure ML.
+
 A model that can see an image, interpret a user's natural language instruction, and perform a simulated action (like pointing, describing, or planning movement)
 
-# Visual Command Agent - AI Infrastructure Project 
+# Visual Command Agent - AI Infrastructure Project
 
 #### Project Structure
 
