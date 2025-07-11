@@ -20,3 +20,6 @@ class VisualCommandModel(nn.Module):
 
     def forward(selfself, image, text_embedding):
         vision_feat = self.vision_encoder(image)  # (B, 512)
+        _, text_feat = self.text_encoder(text_embedding)  # (1, B,256)
+        combined = torch.cat((vision_feat, text_feat.squeeze(0)), dim=1)
+        return self.classifier(combined)
