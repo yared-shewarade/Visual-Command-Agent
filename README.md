@@ -41,19 +41,21 @@ A model that can see an image, interpret a user's natural language instruction, 
 |--- README.md
 
 VisualCommandAgent/
+
+
 ├── training/
-│   ├── model.py
-│   ├── dataset.py
-│   ├── train.py
-│   └── config.yaml
+ │   ├── model.py
+ │   ├── dataset.py
+ │   ├── train.py
+ │   └── config.yaml
 ├── profiling/
-│   ├── profiler.py
-│   └── analysis.md
+ │   ├── profiler.py
+ │   └── analysis.md
 ├── scripts/
-│   ├── setup_env.sh
-│   ├── monitor_gpu.sh
-│   └── azure_submit.py
+ │   ├── setup_env.sh
+ │   ├── monitor_gpu.sh
+ │   └── azure_submit.py
 ├── docs/
-│   └── project_overview.md
+ │   └── project_overview.md
 ├── README.md
 ├── .gitignore
